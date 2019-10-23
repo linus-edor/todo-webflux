@@ -10,7 +10,7 @@ import com.boot.todo.webflux.repository.ToDoRepository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
+//@RestController     //comment out to replace controller with the functional endpoint
 public class ToDoController {
 	private ToDoRepository repository;
 
